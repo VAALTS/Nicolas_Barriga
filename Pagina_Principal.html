@@ -13,38 +13,38 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
     
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark"> <!--Se cambia el color para que la navbar sea oscura-->
         <div class="container-fluid">
-            <a id="tr" class="navbar-brand" href="#">Todo Robado</a>
+            <a id="tr" class="navbar-brand" href="Pagina_Principal.html">Todo Robado</a> <!--Nombre de la pagina, se referencia a si misma-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav"> <!--Permite que sea responsiva-->
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="nosotros.html">Nosotros</a> <!--Link informativo de "nosotros"-->
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="ofertas.html">Ofertas</a>
+                        <a class="nav-link" href="ofertas.html">Ofertas</a> <!--Ofertas-->
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div id="Carousel1" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-inner ">
-            <div class="carousel-item active c-item">
-                <img src="iphone15.jpg" class="d-block w-100 c-img" alt="Primera foto">
-                <div class="carousel-caption bottom-0 mt-4 d-none d-md-block">
+    <div id="Carousel1" class="carousel carousel-dark slide" data-bs-ride="carousel"> <!--Carrusel para mostrar los productos-->
+        <div class="carousel-inner "> <!--"carousel-dark slide" permite que las flechas sean oscuras, para una mejor visibilidad-->
+            <div class="carousel-item active c-item"> <!--Tienen la clase "c-item" para cambiar el estilo en css-->
+                <img src="iphone15.jpg" class="d-block w-100 c-img" alt="Primera foto"> <!--Primera foto del carrusel, en este caso un iphone-->
+                <div class="carousel-caption bottom-0 mt-4 d-none d-md-block"> <!--Texto para la imagen-->
                     <h2>Nuevos Modelos Disponibles</h2>
                     <p>Desde $1.229.990 o desde $51.250 mensuales en 24 cuotas sin interés antes de hacer Trade In.</p>
                 </div>
-            </div>
+            </div> <!--Se repite tanto para el samsung como para el xiaomi-->
             <div class="carousel-item c-item">
                 <img src="s24.webp" class="d-block w-100 c-img" alt="Segunda foto">
-                <div class="carousel-caption top-0 d-none d-md-block">
+                <div class="carousel-caption top-0 d-none d-md-block"> <!--El texto se encuentra "arriba" en la imagen-->
                     <h1>Galaxy AI está aquí</h1>
                     <p>Desde $89.999 al mes o $1.070.990.</p>
                 </div>
@@ -57,8 +57,8 @@
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#Carousel1" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <button class="carousel-control-prev" type="button" data-bs-target="#Carousel1" data-bs-slide="prev"> <!--Aca se le indica a los botones que hacer-->
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
             <span class="visually-hidden">Previous</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#Carousel1" data-bs-slide="next">
@@ -66,7 +66,7 @@
             <span class="visually-hidden">Next</span>
           </button>
     </div>
-    <article class="articulin">
+    <article class="articulin"> <!--Contenido debajo del carrusel-->
         <h1 id="bajo">¡Lo último en teléfonos robados!</h1>
         <p>Garantizamos calidad y si el dueño anterior no lo viene a reclamar es todo tuyo!</p>
         <img src="feliz.png" alt="Garantizado" class="col-md-2">
@@ -75,7 +75,7 @@
     <div>
         <h3 id="sus">¡Suscribete para participar por un cable de fibra optica!</h3>
     </div>
-    <div class="container d-flex justify-content-center">
+    <div class="container d-flex justify-content-center"> <!--Formulario para participar en un "concurso"-->
         <form>
             <div class="mb-3">
                 <label for="Email1" class="form-label">Correo</label>
