@@ -1,0 +1,22 @@
+.c-item{
+    height: 800px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+#tr{
+    font-size: xx-large;
+}
+#bajo{
+    margin: 40px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.articulin{
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
